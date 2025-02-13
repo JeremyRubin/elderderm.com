@@ -7,7 +7,7 @@ export function Scott() {
     <div className="bg-gray-50 min-h-screen">
       <Head>
         <title>ElderDerm - Dermatology for All Ages</title>
-        <meta name="description" content="Scott Phillips' dermatology practice specializing in skincare for older adults." />
+        <meta name="description" content="Scott Phillips&apos; Dermatology: specializing in skincare for older adults." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -47,7 +47,7 @@ export function Scott() {
             />
 
             <p className="text-lg text-gray-700 max-w-2xl mx-auto text-center">
-              Scott Phillips' practice, ElderDerm, offers top-tier skincare services, focusing on the unique needs of older adults.
+              Scott Phillips&apos; practice, ElderDerm, offers top-tier skincare services, focusing on the unique needs of older adults.
               With years of experience and personalized care, ElderDerm helps you maintain healthy, glowing skin at any age.
             </p>
           </div>
