@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import Head from 'next/head'
 
-export function Scott() {
+function Scott() {
   return (
     <div className="bg-gray-50 min-h-screen">
       <Head>
