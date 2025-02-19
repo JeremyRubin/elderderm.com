@@ -46,12 +46,12 @@ function Scott() {
               priority
             />
           </div>
-          <div className="flex justify-center mb-6">
-            <p className="text-lg text-gray-700 max-w-2xl mx-auto text-center">
-              Scott B. Phillips, MD, is a board certified dermatologist, who for the last twelve years has been doing {'"'}house calls{'"'} to residents of both assisted living communities as well as independent living residents in Chicago as well as in the near suburbs. This avoids the family having to take the resident to a community dermatologist, and in most cases their being seen by a dermatologist sooner than they would otherwise be.
+          <div className="flex flex-col items-center mb-6 space-y-4">
+            <p className="text-lg text-gray-700 max-w-2xl text-center">
+              Scott B. Phillips, MD, is a board certified dermatologist, who for the last twelve years has been doing {'"'}house calls{'"'} to residents of both assisted living communities as well as independent living residents in Chicago and the near suburbs. This avoids the family having to take the resident to a community dermatologist, and in most cases, allows them to be seen by a dermatologist sooner than they would otherwise be.
             </p>
-            <p className="text-lg text-gray-700 max-w-2xl mx-auto text-center">
-              Facilities typically visit monthly to see residents that need to be seen, which has worked well during this time.
+            <p className="text-lg text-gray-700 max-w-2xl text-center">
+              Facilities typically schedule monthly visits to see residents that need to be seen, which has worked well during this time.
             </p>
           </div>
 
@@ -62,7 +62,7 @@ function Scott() {
         <section id="services" className="services py-16 bg-gray-100 rounded-lg shadow-md">
           <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">ElderDerm Services</h2>
           <p className="text-lg text-gray-700 text-center mb-6">We offer a wide range of dermatological services, including:</p>
-          <ul className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-8 text-center">
+          <ul className="list-disc list-inside grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-8 text-center">
             <li className="text-gray-700 text-lg">Diagnosis and treatment of diseases of the skin, hair and nails</li>
             <li className="text-gray-700 text-lg">Pre-cancers, cancerous and noncancerous growths</li>
             <li className="text-gray-700 text-lg">Inflammation, scaling, infections</li>
