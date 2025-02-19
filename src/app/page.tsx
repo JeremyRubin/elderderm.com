@@ -28,8 +28,7 @@ function Scott() {
         <section className="hero text-center bg-blue-100 rounded-lg shadow-md py-16">
 
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Scott B. Phillips, MD</h2>
-          <p className="text-lg text-gray-700 mb-6">Provides dermatology house calls to residents of
-            independent living senior buildings and residents of assisted living facilities</p>
+          <p className="text-lg text-gray-700 mb-6">Provides dermatology house calls to residents of independent living senior buildings and residents of assisted living facilities</p>
           <a href="#services" className="bg-blue-600 text-white py-2 px-6 rounded-lg shadow hover:bg-blue-700 transition">Explore Our Services</a>
         </section>
 
@@ -38,7 +37,7 @@ function Scott() {
 
           <div className="flex justify-center mb-6">
             <Image
-              src="https://jeremyrubin.github.io/elderderm.io/scott-classic.jpg"
+              src="https://jeremyrubin.github.io/elderderm.com/scott-classic.jpg"
               alt="Scott Phillips"
               className="dark:invert"
               objectPosition="center"
@@ -46,9 +45,10 @@ function Scott() {
               height={100}
               priority
             />
-
+          </div>
+          <div className="flex justify-center mb-6">
             <p className="text-lg text-gray-700 max-w-2xl mx-auto text-center">
-              Scott B. Phillips, MD, is a board certified dermatologist, who for the last twelve years has been doing {'"'}house calls{'"'}to residents of both assisted living communities as well as independent living residents in Chicago as well as in the near suburbs. This avoids the family having to take the resident to a community dermatologist, and in most cases their being seen by a dermatologist sooner than they would otherwise be.
+              Scott B. Phillips, MD, is a board certified dermatologist, who for the last twelve years has been doing {'"'}house calls{'"'} to residents of both assisted living communities as well as independent living residents in Chicago as well as in the near suburbs. This avoids the family having to take the resident to a community dermatologist, and in most cases their being seen by a dermatologist sooner than they would otherwise be.
             </p>
             <p className="text-lg text-gray-700 max-w-2xl mx-auto text-center">
               Facilities typically visit monthly to see residents that need to be seen, which has worked well during this time.
@@ -62,7 +62,7 @@ function Scott() {
         <section id="services" className="services py-16 bg-gray-100 rounded-lg shadow-md">
           <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">ElderDerm Services</h2>
           <p className="text-lg text-gray-700 text-center mb-6">We offer a wide range of dermatological services, including:</p>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center">
+          <ul className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-8 text-center">
             <li className="text-gray-700 text-lg">Diagnosis and treatment of diseases of the skin, hair and nails</li>
             <li className="text-gray-700 text-lg">Pre-cancers, cancerous and noncancerous growths</li>
             <li className="text-gray-700 text-lg">Inflammation, scaling, infections</li>
