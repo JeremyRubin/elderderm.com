@@ -27,8 +27,9 @@ function Scott() {
       <main className="container mx-auto px-6 py-12">
         <section className="hero text-center bg-blue-100 rounded-lg shadow-md py-16">
 
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Your Skin, Our Priority</h2>
-          <p className="text-lg text-gray-700 mb-6">Expert care from Scott Phillips, specializing in dermatological solutions for all ages.</p>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">Scott Phillips, MD</h2>
+          <p className="text-lg text-gray-700 mb-6">Provides dermatology house calls to residents of
+            independent living senior buildings and residents of assisted living facilities</p>
           <a href="#services" className="bg-blue-600 text-white py-2 px-6 rounded-lg shadow hover:bg-blue-700 transition">Explore Our Services</a>
         </section>
 
@@ -47,31 +48,43 @@ function Scott() {
             />
 
             <p className="text-lg text-gray-700 max-w-2xl mx-auto text-center">
-              Scott Phillips&apos; practice, ElderDerm, offers top-tier skincare services, focusing on the unique needs of older adults.
-              With years of experience and personalized care, ElderDerm helps you maintain healthy, glowing skin at any age.
+              Scott B. Phillips, MD, is a board certified dermatologist,
+              who for the last twelve years has been doing "house calls" to residents of both assisted
+              living communities as well as independent living residents in Chicago as well as in the
+              near suburbs. This avoids the family having to take the resident to a community dermatologist,
+              and in most cases their being seen by a dermatologist sooner than they would otherwise be.
+            </p>
+            <p className="text-lg text-gray-700 max-w-2xl mx-auto text-center">
+              Facilities typically visit monthly to see residents that need
+              to be seen, which has worked well during this time.
             </p>
           </div>
 
         </section>
 
+
+
         <section id="services" className="services py-16 bg-gray-100 rounded-lg shadow-md">
-          <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">Our Services</h2>
+          <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">ElderDerm Services</h2>
+          <p className="text-lg text-gray-700 text-center mb-6">We offer a wide range of dermatological services, including:</p>
           <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center">
-            <li className="text-gray-700 text-lg">Comprehensive Skin Exams</li>
-            <li className="text-gray-700 text-lg">Treatment of Skin Conditions</li>
-            <li className="text-gray-700 text-lg">Cosmetic Dermatology</li>
-            <li className="text-gray-700 text-lg">Skin Cancer Screening</li>
-            <li className="text-gray-700 text-lg">Geriatric Dermatology</li>
+            <li className="text-gray-700 text-lg"></li>
+            <li className="text-gray-700 text-lg">Diagnosis and treatment of diseases of the skin, hair and nails</li>
+            <li className="text-gray-700 text-lg">Pre-cancers, cancerous and noncancerous growths</li>
+            <li className="text-gray-700 text-lg">Inflammation, scaling, infections</li>
+            <li className="text-gray-700 text-lg">All other discomforts of the skin</li>
           </ul>
+          <p className="text-lg text-gray-700 text-center mb-6">Biopsies and removal of benign lesions can be done in the comfort of your home.
+          </p>
         </section>
 
         <section id="contact" className="contact py-16">
           <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">Contact Us</h2>
           <div className="text-center text-lg text-gray-700 space-y-4">
-            <p>Book an appointment with Scott Phillips today!</p>
+            <p> If we already visit your community, call us to book an appointment.</p>
+            <p>If you are a facility and would like us to visit your community please contact us.</p>
             <p>Email: <a href="mailto:info@elderderm.com" className="text-blue-600 hover:underline">info@elderderm.com</a></p>
-            <p>Phone: (123) 456-7890</p>
-            <p>Address: 123 Skincare Lane, Skin City, ST 56789</p>
+            <p>Phone: 312-221-4896</p>
           </div>
         </section>
       </main >
