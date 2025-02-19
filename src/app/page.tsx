@@ -62,12 +62,12 @@ function Scott() {
         <section id="services" className="services py-16 bg-gray-100 rounded-lg shadow-md">
           <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">ElderDerm Services</h2>
           <p className="text-lg text-gray-700 text-center mb-6">We offer a wide range of dermatological services, including:</p>
-          <ul className="list-disc list-inside grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-8 text-center">
+            <ul className="list-disc list-inside text-left mx-auto max-w-md">
             <li className="text-gray-700 text-lg">Diagnosis and treatment of diseases of the skin, hair and nails</li>
             <li className="text-gray-700 text-lg">Pre-cancers, cancerous and noncancerous growths</li>
             <li className="text-gray-700 text-lg">Inflammation, scaling, infections</li>
             <li className="text-gray-700 text-lg">All other discomforts of the skin</li>
-          </ul>
+            </ul>
           <p className="text-lg text-gray-700 text-center mb-6">Biopsies and removal of benign lesions can be done in the comfort of your home.
           </p>
         </section>
