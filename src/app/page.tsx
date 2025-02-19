@@ -27,7 +27,7 @@ function Scott() {
       <main className="container mx-auto px-6 py-12">
         <section className="hero text-center bg-blue-100 rounded-lg shadow-md py-16">
 
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Scott Phillips, MD</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">Scott B. Phillips, MD</h2>
           <p className="text-lg text-gray-700 mb-6">Provides dermatology house calls to residents of
             independent living senior buildings and residents of assisted living facilities</p>
           <a href="#services" className="bg-blue-600 text-white py-2 px-6 rounded-lg shadow hover:bg-blue-700 transition">Explore Our Services</a>
@@ -49,7 +49,7 @@ function Scott() {
 
             <p className="text-lg text-gray-700 max-w-2xl mx-auto text-center">
               Scott B. Phillips, MD, is a board certified dermatologist,
-              who for the last twelve years has been doing "house calls" to residents of both assisted
+              who for the last twelve years has been doing {'"'}house calls{'"'}to residents of both assisted
               living communities as well as independent living residents in Chicago as well as in the
               near suburbs. This avoids the family having to take the resident to a community dermatologist,
               and in most cases their being seen by a dermatologist sooner than they would otherwise be.
