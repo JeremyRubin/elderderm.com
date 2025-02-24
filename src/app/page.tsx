@@ -4,6 +4,7 @@ import Head from 'next/head'
 
 function Scott() {
   return (
+
     <div className="bg-gray-50 min-h-screen">
       <Head>
         <title>ElderDerm - Dermatology for All Ages</title>
@@ -56,8 +57,8 @@ function Scott() {
               </p>
             </div>
           </div>
-        
-          </section>
+
+        </section>
         <section className="qualifications py-16">
           <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">Qualifications</h2>
           <div className="flex flex-col md:flex-row items-center mb-6 space-y-4 md:space-y-0 md:space-x-6">
@@ -93,8 +94,6 @@ function Scott() {
           </div>
         </section>
 
-        </section>
-
 
 
         <section id="services" className="services py-16 bg-gray-100 rounded-lg shadow-md">
@@ -124,7 +123,7 @@ function Scott() {
       <footer className="bg-blue-600 text-white py-4">
         <p className="text-center">&copy; {new Date().getFullYear()} ElderDerm. All rights reserved.</p>
       </footer>
-    </div >
+    </div>
   )
 }
 
