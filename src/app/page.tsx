@@ -63,7 +63,6 @@ function Scott() {
           <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">Qualifications</h2>
           <div className="flex flex-col md:flex-row items-center mb-6 space-y-4 md:space-y-0 md:space-x-6">
             <div className="flex flex-col items-center md:items-start">
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Qualifications</h3>
               <p className="text-lg text-gray-700 max-w-2xl text-center md:text-left">
                 <strong>Board Certified Dermatologist</strong><br />
                 Fellow of the American Academy of Dermatology

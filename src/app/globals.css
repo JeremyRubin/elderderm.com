@@ -24,7 +24,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    font: "Calibri", sans-serif;
+    font-family:"Calibri", sans-serif;
+
 }
 
 @layer utilities {
